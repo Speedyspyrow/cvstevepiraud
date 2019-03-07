@@ -1,0 +1,158 @@
+
+/*Bannière navbar*/
+
+.navbar {
+	background-color: #e3f2fd;
+}
+
+.navbar-nav {
+	margin-left: 5%;
+}
+
+.home-white {
+	filter: drop-shadow(2px 2px 1px grey);
+	width:35px;
+	margin-left: 30px;
+	
+}
+
+.nav-item {
+	margin-left: 50px;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+.navbar-text {
+
+}
+
+.btn {
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+/*Bannière image*/
+
+.firstblock{
+	background-image: url("images/wave.png");
+	background-size: cover;
+	height: 610px;
+}
+
+#container1{
+	position: relative;
+}
+
+.qrlinkedin{
+	width: 20%;
+	position: absolute;
+	top: 72%;
+	left: 10%;
+}
+
+.imagemoi{
+	margin-top: 80px;
+}
+
+.moi{
+	width: 300px;
+	filter: drop-shadow(2px 2px 5px);
+	margin-top: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+	.moi{
+		width: 200px;
+		filter: drop-shadow(2px 2px 5px);
+		margin-top: 20%;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.moi{
+		width: 130px;
+		filter: drop-shadow(2px 2px 5px);
+		position: absolute;
+		top: -50%;
+		margin-right: auto;
+		margin-left: auto;
+		left: 0%;
+		right: 0%;
+	}
+}
+
+.title1{
+	margin-top: 25%;
+}
+
+.kedge{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 300px;
+	filter: drop-shadow(3px 2px 1px white);
+}
+
+h1 {
+	font-family: bebas neue;
+	text-align: center;
+	color: white;
+	filter: drop-shadow(2px 2px 1px black);
+	font-size: 50px;
+}
+
+
+/*Espace expériences pro*/
+
+#spacebeforecontainer2{
+	height: 76px;
+}
+
+#container2{
+	margin-top: 50px;
+}
+
+/*Espace hobbies avec carousel*/
+
+#spacebeforebdexample{
+	height: 76px;
+}
+
+#bd-example{
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.d-block{
+	width: 100px;
+	height: 500px;
+	opacity: 0.5;
+	filter: blur(0.5px);
+}
+
+h5{
+	text-shadow: 2px 2px black;
+	font-size: 50px;
+}
+
+.card-img{
+	margin-top: 50px;
+	max-width: 50%;
+	height: auto;
+	margin-left:75px;
+}
+
+.card{
+	max-width: 100%;
+	border-radius: 2px;
+}
+
+.footer {
+	background-color: grey;
+	margin-top: 100px;
+	height: 100px;
+}
+
